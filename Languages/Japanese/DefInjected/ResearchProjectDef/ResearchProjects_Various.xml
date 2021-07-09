@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VAE_LeatherTanning.label>皮をなめす</VAE_LeatherTanning.label>
+  <VAE_LeatherTanning.description>より厚く耐久性のある鎧を作るために皮をなめす方法を研究します。</VAE_LeatherTanning.description>
+
+  <VAE_HazardProtection.label>危険環境保護</VAE_HazardProtection.label>
+  <VAE_HazardProtection.description>対高毒性と対放射線に優れた衣服の研究を行います。</VAE_HazardProtection.description>
+
+  <VAE_MlitaryCamouflage.label>軍用迷彩服</VAE_MlitaryCamouflage.label>
+  <VAE_MlitaryCamouflage.description>着用者が木の葉などの風景や生態環境に似せた特殊な軍用衣服を作成できるように研究します。</VAE_MlitaryCamouflage.description>
+
+  <VAE_SiegebreakerArmor.label>重装甲型 パワーアーマー</VAE_SiegebreakerArmor.label>
+  <VAE_SiegebreakerArmor.description>装着者の移動力を大幅に遅くしますが、広範囲で高い防御力を提供する強力なシージブレーカーアーマーを製作できるようになります。材料に先進コンポーネントが必要であることに注意してください。</VAE_SiegebreakerArmor.description>
+
+  <VAE_TrooperArmor.label>トルーパーアーマー</VAE_TrooperArmor.label>
+  <VAE_TrooperArmor.description>軽く低コストで製造できる軽装甲半動力型なトルーパーアーマーを製作できるようになります。材料に先進コンポーネントが必要であることに注意してください。</VAE_TrooperArmor.description>
+
+</LanguageData>

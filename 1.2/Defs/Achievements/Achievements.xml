@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>Juggernaut</defName>
+		<label>JUGGERNAUT!</label>
+		<description>Craft a masterwork stone war mask</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VAE_Headgear_StoneWarMask</def>
+			<quality>Legendary</quality>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/Juggernaut</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>iDontSeeAnyone</defName>
+		<label>I Don't See Anyone!</label>
+		<description>Craft a ghillie suit</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VAE_Apparel_GhillieSuit</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/iDontSeeAnyone</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>notGreatNotTerrible</defName>
+		<label>Not Great, not Terrible</label>
+		<description>Craft 6 HAZMAT suits</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VAE_Apparel_HAZMATSuit</def>
+			<count>6</count>
+		</tracker>
+		
+		<texPath>Achievements/notGreatNotTerrible</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>leatherThatsKinky</defName>
+		<label>Leather? That's Kinky</label>
+		<description>Research leather tanning</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ResearchTracker">
+			<def>VAE_LeatherTanning</def>
+		</tracker>
+		
+		<texPath>Achievements/leatherThatsKinky</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>sierra117</defName>
+		<label>Sierra 117</label>
+		<description>Craft a masterwork quality heavy marine armor</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VAE_Apparel_HeavyMarineArmor</def>
+			<quality>Masterwork</quality>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/sierra117</texPath>
+		<points>50</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	
+
+</Defs>

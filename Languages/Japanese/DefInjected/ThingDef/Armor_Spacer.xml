@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Trooper Helmet -->
+
+  <VAE_Headgear_TrooperHelmet.label>トルーパーヘルメット</VAE_Headgear_TrooperHelmet.label>
+  <VAE_Headgear_TrooperHelmet.description>保護用のプラスチック繊維装甲を備えた軽量のハイテク装甲ヘルメットです。\n\nこの種類の防具は、帝国兵や中後期の軍でよく使われています。</VAE_Headgear_TrooperHelmet.description>
+
+
+  <!-- Trooper Armor -->
+
+  <VAE_Apparel_TrooperArmor.label>トルーパーアーマー</VAE_Apparel_TrooperArmor.label>
+  <VAE_Apparel_TrooperArmor.description>軽量で最小限な装甲のバワードスーツです。軽量なプラスチール繊維の装甲は攻撃を受け止めて、下半身の神経記憶補助装置は着用者が運ぶ重量を正しく配分します。他のパワードアーマーよりもスリムなので、服の下に着用する事が可能です。\n\nこの種類のパワーアーマーは、帝国兵や中後期の軍でよく使われています。</VAE_Apparel_TrooperArmor.description>
+
+
+  <!--  Siegebreaker Helmet  -->
+
+  <VAE_Headgear_HeavyMarineHelmet.label>シージーブレイカーヘルメット</VAE_Headgear_HeavyMarineHelmet.label>
+  <VAE_Headgear_HeavyMarineHelmet.description>頑丈なプラスチール繊維の防御装甲と全方位カメラ付きのハイテク重装甲ヘルメットです。\n\nこの種類のヘルメットは、主に対メカノイド戦闘で銀河帝国の重装機動歩兵たちによって使用され、兵士を人の型をした戦車に変えます。</VAE_Headgear_HeavyMarineHelmet.description>
+
+
+  <!--  Siegebreaker Armor  -->
+
+  <VAE_Apparel_HeavyMarineArmor.label>シージーブレイカーアーマー</VAE_Apparel_HeavyMarineArmor.label>
+  <VAE_Apparel_HeavyMarineArmor.description>機動性を維持しながら防御を強化するために設計された、強化型パワードアーマーです。エネルギー遮蔽エミッターを内蔵した分厚いプラスチール繊維装甲が、ほとんどの攻撃を阻止します。神経記憶補助装置は、人間が動きを邪魔しない様に着ることを可能にします。\n\nこの種類のパワーアーマーは、主に帝国の重装機動歩兵やglitterworldの平和維持部隊によって使われています。</VAE_Apparel_HeavyMarineArmor.description>
+
+</LanguageData>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VAE_LeatherTanning</defName>
+		<label>leather tanning</label>
+		<description>Learn the process of tanning to craft more thicker and durable armors.</description>
+		<baseCost>600</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+  <researchViewX>1.00</researchViewX>
+  <researchViewY>1.35</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VAE_HazardProtection</defName>
+		<label>hazard protection</label>
+		<description>Develop suits resistant to high toxicity and radiation.</description>
+		<baseCost>1000</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VAE_MilitaryClothing</li>
+		</prerequisites>
+  <researchViewX>5.00</researchViewX>
+  <researchViewY>1.95</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VAE_MlitaryCamouflage</defName>
+		<label>military camouflage</label>
+		<description>Craft special military apparel allowing users to resemble the background environment such as foliage.</description>
+		<baseCost>1000</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VAE_MilitaryClothing</li>
+		</prerequisites>
+  <researchViewX>4.00</researchViewX>
+  <researchViewY>2.55</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VAE_SiegebreakerArmor</defName>
+		<label>siegebreaker armor</label>
+		<description>Craft siegebreaker armor, heavy powered armor that significantly slows the user but provides advanced protection at range. Note that these also require advanced components.</description>
+		<baseCost>6000</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>PoweredArmor</li>
+			<li>ShieldBelt</li>
+		</prerequisites>
+  <researchViewX>8.00</researchViewX>
+  <researchViewY>3.05</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VAE_TrooperArmor</defName>
+		<label>trooper armor</label>
+		<description>Craft trooper armor, a light semi-powered armor that is lightweight and cheap to produce. Note that these also require advanced components.</description>
+		<baseCost>3000</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>FlakArmor</li>
+		</prerequisites>
+  <researchViewX>7.00</researchViewX>
+  <researchViewY>3.05</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
