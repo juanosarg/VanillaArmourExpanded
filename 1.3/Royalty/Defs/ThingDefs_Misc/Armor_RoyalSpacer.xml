@@ -123,6 +123,7 @@
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+		<MoveSpeed>0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -368,6 +369,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
 		<comps>
 			<li Class="VFECore.CompProperties_ShieldBubble">
 				<compClass>VFECore.CompShieldBubble</compClass>

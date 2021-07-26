@@ -312,7 +312,7 @@
 					<defName>VAE_Apparel_RoyalSiegeArmor</defName>
 					<label>prestige siegebreaker armor</label>
 					<description>A suit of heavy powered armor, built for increased protection while still maintaining mobility. Heavy layered plasteel-weave plates paired with a built-in energy shield emitter stop most attacks. Neuro-memetic assistors allow a human to wear this armor without immobilizing them entirely.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity.</description>
-					<thingClass>D9ASB.RangedShieldBelt</thingClass>
+					
 					<graphicData>
 						<texPath>Things/Apparel/RoyalSiegebreakerArmor/RoyalSiegebreakerArmor</texPath>
 						<graphicClass>Graphic_Single</graphicClass>
@@ -405,6 +405,22 @@
 							</li>
 						</options>
 					</colorGenerator>
+					<comps>
+			<li Class="VFECore.CompProperties_ShieldBubble">
+				<compClass>VFECore.CompShieldBubble</compClass>
+				<blockRangedAttack>true</blockRangedAttack>
+				<blockMeleeAttack>false</blockMeleeAttack>
+				<showWhenDrafted>true</showWhenDrafted>
+				<showOnHostiles>true</showOnHostiles>
+				<showOnNeutralInCombat>true</showOnNeutralInCombat>
+				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+				<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+				<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+				<minShieldSize>1.4</minShieldSize>
+				<maxShieldSize>1.8</maxShieldSize>
+				<disableRotation>true</disableRotation>
+			</li>
+		</comps>
 				</ThingDef>
 			</value>
 		</match>
@@ -501,6 +517,12 @@
 							<MaxHitPoints>500</MaxHitPoints>
 						</value>
 					</li>
+          <li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="VAE_Apparel_RoyalTrooperArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+						<value>
+							<MoveSpeed>0.92</MoveSpeed>
+						</value>
+					</li>
 					<li Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="VAE_Apparel_RoyalTrooperArmor"]/equippedStatOffsets</xpath>
 						<value>
@@ -508,7 +530,6 @@
 							<CarryBulk>7.5</CarryBulk>
 							<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
 							<ToxicSensitivity>-0.3</ToxicSensitivity>
-							<MoveSpeed>0.92</MoveSpeed>
 						</value>
 					</li>
 					<li Class="PatchOperationAdd">
