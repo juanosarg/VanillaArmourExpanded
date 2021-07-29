@@ -406,8 +406,7 @@
 						</options>
 					</colorGenerator>
 					<comps>
-			<li Class="VFECore.CompProperties_ShieldBubble">
-				<compClass>VFECore.CompShieldBubble</compClass>
+			<li Class="VFEMech.CompProperties_ShieldMechBubble">
 				<blockRangedAttack>true</blockRangedAttack>
 				<blockMeleeAttack>false</blockMeleeAttack>
 				<showWhenDrafted>true</showWhenDrafted>
