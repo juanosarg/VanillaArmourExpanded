@@ -97,9 +97,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Headgear/NightVisionGoggles/NightVisionGoggles</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			<layers>
-				<li>Overhead</li>
-			</layers>
+      <layers>
+        <li>Overhead</li>
+      </layers>
 			<tags>
 				<li>IndustrialMilitary</li>
 				<li>IndustrialAdvanced</li>
@@ -155,9 +155,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Headgear/BallisticGoggles/BallisticGoggles</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			<layers>
-				<li>Overhead</li>
-			</layers>
+      <layers>
+        <li>Overhead</li>
+      </layers>
 			<tags>
 				<li>IndustrialMilitary</li>
 				<li>IndustrialAdvanced</li>
@@ -238,6 +238,7 @@
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
+		<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 		</recipeMaker>
     </ThingDef>
 
@@ -279,13 +280,13 @@
       <li>ArmorHeadgear</li>
     </thingCategories>
 		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
 			<wornGraphicPath>Things/Headgear/HAZMATMask/HAZMATMask</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
+      <layers>
+        <li>Overhead</li>
+      </layers>
 			<tags>
 				<li>SpacerMilitary</li>
 			</tags>

@@ -26,6 +26,7 @@
 	<loadAfter>
 		<li>vanillaexpanded.achievements</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>n7huntsman.combatshields</li>
 	</loadAfter>
 	<packageId>VanillaExpanded.VARME</packageId>
 

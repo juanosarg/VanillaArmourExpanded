@@ -33,6 +33,7 @@
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Feet</li>
 			</bodyPartGroups>
@@ -95,6 +96,7 @@
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Feet</li>
 			</bodyPartGroups>

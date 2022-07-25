@@ -206,9 +206,9 @@
 			<MaxHitPoints>170</MaxHitPoints>
 			<Mass>2.5</Mass>
 			<Flammability>0.4</Flammability>
-			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.56</ArmorRating_Heat>
+			<ArmorRating_Sharp>1.18</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.48</ArmorRating_Heat>
 			<Insulation_Cold>4</Insulation_Cold>
 			<Insulation_Heat>2</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
@@ -291,6 +291,7 @@
 			<Uranium>40</Uranium>
 			<Gold>18</Gold>
 		</costList>
+		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<WorkToMake>158000</WorkToMake>
@@ -369,7 +370,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
 		<comps>
 			<li Class="VFECore.CompProperties_ShieldBubble">
 				<compClass>VFECore.CompShieldBubble</compClass>
@@ -379,7 +379,7 @@
 				<showOnHostiles>true</showOnHostiles>
 				<showOnNeutralInCombat>true</showOnNeutralInCombat>
 				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
-				<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+				<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
 				<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
 				<minShieldSize>1.4</minShieldSize>
 				<maxShieldSize>1.8</maxShieldSize>
